@@ -11,3 +11,169 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header-list {
+  list-style: none;
+  color: black;
+  margin: 0;
+  padding: 12px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.global-header {
+  background: #ff7722;
+  height: 50px;
+  padding: 0 5%;
+}
+
+.linkedpath {
+  text-decoration: none;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.movies-list {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  height: min-content;
+  width: 500px;
+  /* object-fit: cover; */
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.movie-details {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.movie-name {
+  padding: 0;
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.rating {
+  margin-top: 6px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.movie-rating {
+  padding: 4px;
+  margin: 0;
+}
+
+.action {
+  background: green;
+  border: none;
+  border-radius: 15px;
+  height: 22px;
+  margin-top: 10px;
+}
+
+.img {
+  padding: 0;
+  margin: 0;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.all-theatres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.theatres {
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+}
+
+.theatre-name {
+  background: #ff7722;
+  height: 50px;
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+  font-size: 24px;
+}
+
+.theatre-images {
+  width: 400px;
+  height: 200px;
+}
+
+.timings {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.show-time {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.sign-in-page, .sign-up-page {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.profile-logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 30%;
+  margin-left: 35%;
+  margin-bottom: 25px;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.admin-page {
+  text-align: center;
+}
+
+.admin-list {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  width: 100%;
+}
+
+.to-do-list {
+  list-style: none;
+}
+
+
+
+.footer {
+  background: lightgrey;
+  margin-bottom: 0px;
+  width: 100%;
+}
